@@ -1,0 +1,22 @@
+let nomeCompleto = prompt("Qual o seu nome?");
+let dataNascimento = prompt("digite sua data de nascimento (dd/mm/aaaa):");
+let endereco = prompt("Qual o seu endereço?");
+let cpf = prompt("Qual o seu cpf?");
+let escolaridade = prompt("Qual a sua escolaridade");
+let qntdFilhos = parseInt(prompt("Quantos Filhos voce tem?"));
+let cargoAtual = prompt("Qual o seu cargo atual?");
+let salario = parseFloat(prompt("Quanto é seu Salario"));
+let comissao = prompt (" Voce recebe Comissão?c(sim/não").toLowerCase() === "sim";
+let anoAdmissao = parseInt(prompt ("Qual seu ano de Admissão?"));
+
+console.log("Dados cadastrados com Sucesso:");
+console.log("Nome:", nomeCompleto);
+console.log("Data de Nascimento:", dataNascimento);
+console.log("Qual o seu Endereço:", endereco);
+console.log("CPF:", cpf);
+console.log("Escolaridade:", escolaridade);
+console.log("Quantidade de filhos:", qntdFilhos);
+console.log("Cargo atual:", cargoAtual);
+console.log("Salário:", salario);
+console.log("Recebe comissão:", comissao);
+console.log("Ano de admissão:", anoAdmissao);
